@@ -1,144 +1,144 @@
-const logotext = "JOHN";
+const logotext = "Vũ Trung Đức";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Vũ Trung Đức",
+    description: "Tôi là Vũ Trung Đức , lập trình viên hiện tại đang làm việc tại Hà Nội",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Tôi là Vũ Trung Đức",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Love coding",
+        second: "I code websites",
+        third: "I develop Mobiles App",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Đây là sản phẩm về hồ sơ của tôi được viết dựa trên thư viện ReactJs",
+    your_img_url: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/376621932_3470269336561111_2109970363141851709_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dDFNLaMH_hoQ7kNvgFSr8MF&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=A5XEpFlekgokFcNvD1kh-gK&oh=00_AYBtpQLffKz5V0kszptyJ6t3OSeA96eeuroyHBWePfhhzw&oe=67159D93",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Giới thiệu về bản thân",
+    aboutme: "",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Gia sư dạy học sinh cấp 1 ",
+        where: "Hà Nội",
+        date: "2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Thực tập sinh website",
+        where: "ITech",
+        date: "2022",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // }
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 70,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "PHP",
+        value: 75,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 75,
     },
     {
-        name: "React",
-        value: 60,
+        name: "ReactJS",
+        value: 65,
     },
     {
-        name: "Jquery",
+        name: "HTML CSS",
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Kỹ năng lập trình thiết kế giao diện hài hòa hợp lý , độ tương tác với người dùng tốt. ",
     },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    // {
+    //     title: "HTML CSS",
+    //     description: ".",
+    // },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Thiết kế website đơn giản bằng Wordpress ",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://mona.solutions/wp-content/uploads/2017/12/4b-1.jpg",
+        description: "Sản phẩm làm về website bán hàng qua mạng",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ytimg.com/vi/pAwcC1QV94Y/hqdefault.jpg",
+        description: "Quản lý sinh viên sử dụng window form",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://cdn.prod.website-files.com/5b5729421aca332c60585f78/616f2d81cb0e87db7f361a15_realtor.com-real-estate-landing-page-example.png",
+        description: "Lập trình website Landing Page bằng HTML CSS",
         link: "#",
     },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://colorworldwebdesign.com/wp-content/uploads/2021/10/top-9-giao-dien-website-ban-khoa-hoc-online-chuyen-nghiep-nhat.jpg",
+        description: "Lập trình website Landing Page bằng HTML CSS , JavaScript",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "vutrduc0709@gmail.com",
+    YOUR_FONE: "(+84)0387875421",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +147,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    github: "https://github.com/VuTrungDuc79",
+    facebook: "https://www.facebook.com/vutrduc79",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    twitter: "https://x.com/ducVu_0709",
 };
 export {
     meta,
